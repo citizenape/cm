@@ -554,10 +554,8 @@ const Home = (props: HomeProps) => {
                     <Menu>
                         <li><a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer">Menu 1</a>
                         </li>
-                        <li><a href="http://localhost:3000/" target="_blank"
-                               rel="noopener noreferrer">Menu 2</a></li>
-                        <li><a href="http://localhost:3000/" target="_blank"
-                               rel="noopener noreferrer">Menu 3</a></li>
+                        
+                        
                     </Menu>
                     <Wallet>
                         {wallet ?
@@ -570,7 +568,7 @@ const Home = (props: HomeProps) => {
                 <MintContainer>
                     <DesContainer>
                         <NFT elevation={3}>
-                            <h2>My NFT</h2>
+                            <h2>CITIZEN APES</h2>
                             <br/>
                             <div><Price
                                 label={isActive && whitelistEnabled && (whitelistTokenBalance > 0) ? (whitelistPrice + " " + priceLabel) : (price + " " + priceLabel)}/><Image
@@ -658,31 +656,22 @@ const Home = (props: HomeProps) => {
                     </DesContainer>
                     <DesContainer>
                         <Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>TITLE 1</GoldTitle></LogoAligner>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
+                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>ABOUT CITIZEN APES</GoldTitle></LogoAligner>
+                            <p>Citizen Apes are a collection of 1,000 unique NFT collectibles..</p>
+                            <p>Apes integrate Sports, Culture, and Heritage from the Blockchain.</p>
+                            <p>Citizen Ape NFT holders get a tremendous amount of access and benefits.</p>
                         </Des>
                         <Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>TITLE 2</GoldTitle></LogoAligner>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
+                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>UTILITY</GoldTitle></LogoAligner>
+                            <p>CitizenApes NFTs will double as your Citizen Passport and grant access to select perks and participation rights.</p>
+                            <p>They will play a pivotal role in the Wisefool Labs ecosystem.</p>
+                            
                         </Des>
                         <Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>TITLE 3</GoldTitle></LogoAligner>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
+                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>ROADMAP</GoldTitle></LogoAligner>
+                            <p>Showcase the love of your country and culture as a CitizenAper.</p>
+                            <p>Each NFT has a unique set of traits, characteristics, and personality.</p>
+                            <p>Backed by a proud community eager to learn, share, and promote what makes their cultures special!</p>
                         </Des>
                     </DesContainer>
                 </MintContainer>
